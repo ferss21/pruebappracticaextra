@@ -1,0 +1,13 @@
+-Crear un repositorio Git para gestionar el proyecto.
+-Comenzar por la columna "Tienda", creando una tabla dinámica para verificar la exactitud de las categorías y la correlación de los nombres.
+-Repetir el proceso inicial con los clientes, incluyendo la depuración del género de los clientes.
+-Verificar que no haya duplicados de "sk_customer" e "id" en la tabla de clientes.
+-El producto no requiere tratamiento, ya que se trata de una tabla de dimensiones muy pequeñas.
+-Validar la tabla base para asegurar que todos los elementos estén relacionados y existan en las otras tablas.
+-Normalizar la tabla base cambiando el "idcategoria".
+-Una vez depurados los datos, proceder a cargar el archivo Excel en PowerBI y verificar que los tipos de campos sean correctos.
+-Crear el modelo de datos en PowerBI.
+-Desarrollar el informe basado en los requerimientos solicitados, que incluyen:
+-Reporte de ventas por sucursal.
+-Reporte anual de ventas por persona y tienda.
+-Validar las posiciones de los reportes y las leyendas.
